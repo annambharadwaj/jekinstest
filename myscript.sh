@@ -5,4 +5,3 @@ echo "Argument two is $2"
 sum=$(($1 + $2))
 echo "The sum is $sum"
 
-echo "hey"
