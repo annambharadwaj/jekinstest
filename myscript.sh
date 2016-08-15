@@ -4,6 +4,6 @@ echo "Argument one is $1"
 echo "Argument two is $2"
 sum=$(($1 + $2))
 echo "The sum is $sum"
-touch copy.xml
-echo $sum > copy.xml
+touch copy1.xml
+echo $sum > copy1.xml
 
