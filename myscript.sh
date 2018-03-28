@@ -1,9 +1,8 @@
 #!/bin/sh
-echo "Hello world"
+echo "Testing"
 echo "Argument one is $1"
 echo "Argument two is $2"
-sum=$(($1 + $2))
-echo "The sum is $sum"
-touch copy1.xml
-echo $sum > copy1.xml
+echo "Argument three is $3"
+sum=$(($1 + $2 + $3))
+echo "Total is $sum"
 
